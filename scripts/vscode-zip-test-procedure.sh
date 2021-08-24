@@ -47,7 +47,7 @@ setup() {
   echo 'Preparing a temporary folder...'
 
   cd "$(realpath "$(mktemp -d)")"
-  if [ "${PM}" = "yarn" ]; then yarn set version berry || true >& /dev/null; fi
+  if [ "${PM}" = "yarn" ]; then yarn policies set-version berry || true >& /dev/null; fi
 
   "$PM" "$@" >& /dev/null
   "$PM" add @sindresorhus/slugify >& /dev/null
