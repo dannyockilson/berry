@@ -32,7 +32,7 @@ Note that those commands only need to be run once for the whole project and will
 
 1. Run `npm install -g yarn` to update the global yarn version to latest v1
 2. Go into your project directory
-3. Run `yarn set version berry` to enable v2 (cf [Install](/getting-started/install) for more details)
+3. Run `yarn policies set-version berry` to enable v2 (cf [Install](/getting-started/install) for more details)
 4. If you used `.npmrc` or `.yarnrc`, you'll need to turn them into the [new format](/configuration/yarnrc) (see also [1](/getting-started/migration#update-your-configuration-to-the-new-settings), [2](https://yarnpkg.com/getting-started/migration#dont-use-npmrc-files))
 5. Add [`nodeLinker: node-modules`](/configuration/yarnrc#nodeLinker) in your `.yarnrc.yml` file
 6. Commit the changes so far (`yarn-X.Y.Z.js`, `.yarnrc.yml`, ...)
