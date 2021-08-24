@@ -44,7 +44,7 @@ cd ~/path/to/project
 3. Run the following:
 
 ```bash
-yarn set version berry
+yarn policies set-version berry
 ```
 
 > "Berry" is the codename for all versions of Yarn from 2 onwards: 2.x, 3.x, etc. It's also the name of our [repository](https://github.com/yarnpkg/berry)!
